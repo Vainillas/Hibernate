@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<hibernate-mapping package="com.arquitecturajava.bo">
+    <class name="Libro" table="libros">
+        <id name="isbn" type="string" />
+        <property name="titulo" type="string" column="titulo" />
+        <property name="categoria" type="string" column="categoria" />
+    </class>
+</hibernate-mapping>
